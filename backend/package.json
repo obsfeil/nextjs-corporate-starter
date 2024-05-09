@@ -13,12 +13,12 @@
 
   "devDependencies": {},
   "dependencies": {
-    "@strapi/cloud-cli": "4.2.4",
-      "@strapi/strapi": "4.2.4",
-    "@strapi/plugin-users-permissions": "4.2.4",
-    "@strapi/plugin-i18n": "4.2.4",
-    "better-sqlite3": "8.6.0",
-    "@strapi/plugin-seo": "^4.2.4",
+    "@strapi/cloud-cli": "4.2.0",
+    "@strapi/strapi": "4.2.0",
+    "@strapi/plugin-users-permissions": "4.2.0",
+    "@strapi/plugin-i18n": "4.2.0",
+    "better-sqlite3": "9.0.4",
+    "@strapi/plugin-seo": "^4.2.0",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
     "react-router-dom": "5.3.4",
