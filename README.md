@@ -4,7 +4,6 @@ note: This project was started with love by [Trecia](https://github.com/TreciaKS
 
 ![demo-site](https://user-images.githubusercontent.com/6153188/231865321-0da5e81f-4832-4cce-bcd1-ecd79e9b9cc3.gif)
 
-
 ## Hello Strapi
 
 Strapi Community Edition is a free and open-source headless CMS enabling you to manage any content, anywhere.
@@ -27,7 +26,6 @@ Strapi Community Edition is a free and open-source headless CMS enabling you to 
 - **GraphQL or REST**: Consume the API using REST or GraphQL
 
 You can unlock additional features such as SSO, Audit Logs, Review Workflows in [Strapi Cloud](https://cloud.strapi.io/login?source=github1) or [Strapi Enterprise](https://strapi.io/enterprise?source=github1).
-
 
 ## Getting Started
 
@@ -94,7 +92,7 @@ This will import your data locally. Log back into your admin panel to see the ne
 
 Here is a quick video covering initial setup and data seeding.
 
-https://github.com/strapi/nextjs-corporate-starter/assets/6153188/80f00bf5-d17b-449d-8a0d-7f0d9614f40b
+<https://github.com/strapi/nextjs-corporate-starter/assets/6153188/80f00bf5-d17b-449d-8a0d-7f0d9614f40b>
 
 ## Setting Up The Frontend
 
@@ -187,6 +185,7 @@ You can find the setting inside the `package.json` file inside the root folder.
   }
 }
 ```
+
 Go to the root folder and install the package, `yarn`
 You can start both apps by running `yarn dev`.
 
@@ -221,7 +220,7 @@ In your web browser, navigate to [https://github.com/strapi/nextjs-corporate-sta
 
 ### 2. Clone your Fork
 
-Now, go to your version of the repository. You can do this by navigating to https://github.com/USERNAME/nextjs-corporate-starter (replace 'USERNAME' with your GitHub username). Here, click the 'Clone' button and then 'Copy to clipboard' to copy the git URL.
+Now, go to your version of the repository. You can do this by navigating to <https://github.com/USERNAME/nextjs-corporate-starter> (replace 'USERNAME' with your GitHub username). Here, click the 'Clone' button and then 'Copy to clipboard' to copy the git URL.
 
 Next, you need to open your terminal, navigate to where you want to store the project, and type the following command, followed by 'Enter':
 
@@ -314,7 +313,7 @@ Thank you for your contribution. We appreciate you!
 
 Remember, everyone was new to open-source at some point. If you're unsure about something, don't hesitate to ask for help. Good luck and happy hacking!
 
-### Psst...
+### Psst
 
 If you find yourself contributing frequently, we've provided a script in the package.json to help keep your local project synchronized with the main branch of the upstream (original) project. Simply execute the following command:
 
@@ -325,8 +324,9 @@ yarn repo:upstream
 ## FAQ
 
 ### How do I add additional pages?
+
 Check out [this video](https://youtu.be/EoVrTNA3geM) where I will guide on how to do this.
 
 ### How do I update my Strapi version?
-Check out this [this issue comment](https://github.com/strapi/nextjs-corporate-starter/issues/17#issuecomment-1558149967)
 
+Check out this [this issue comment](https://github.com/strapi/nextjs-corporate-starter/issues/17#issuecomment-1558149967)
