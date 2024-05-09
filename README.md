@@ -4,7 +4,6 @@ note: This project was started with love by [Trecia](https://github.com/TreciaKS
 
 ![demo-site](https://user-images.githubusercontent.com/6153188/231865321-0da5e81f-4832-4cce-bcd1-ecd79e9b9cc3.gif)
 
-
 ## Hello Strapi
 
 Strapi Community Edition is a free and open-source headless CMS enabling you to manage any content, anywhere.
@@ -27,7 +26,6 @@ Strapi Community Edition is a free and open-source headless CMS enabling you to 
 - **GraphQL or REST**: Consume the API using REST or GraphQL
 
 You can unlock additional features such as SSO, Audit Logs, Review Workflows in [Strapi Cloud](https://cloud.strapi.io/login?source=github1) or [Strapi Enterprise](https://strapi.io/enterprise?source=github1).
-
 
 ## Getting Started
 
@@ -314,7 +312,7 @@ Thank you for your contribution. We appreciate you!
 
 Remember, everyone was new to open-source at some point. If you're unsure about something, don't hesitate to ask for help. Good luck and happy hacking!
 
-### Psst...
+### Psst
 
 If you find yourself contributing frequently, we've provided a script in the package.json to help keep your local project synchronized with the main branch of the upstream (original) project. Simply execute the following command:
 
@@ -329,4 +327,3 @@ Check out [this video](https://youtu.be/EoVrTNA3geM) where I will guide on how t
 
 ### How do I update my Strapi version?
 Check out this [this issue comment](https://github.com/strapi/nextjs-corporate-starter/issues/17#issuecomment-1558149967)
-
