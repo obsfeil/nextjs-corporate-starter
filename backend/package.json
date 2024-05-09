@@ -19,16 +19,12 @@
     "@strapi/plugin-users-permissions": "4.24.2",
     "@strapi/plugin-i18n": "4.24.2",
     "@strapi/plugin-seo": "1.9.8",
-    "@strapi/plugin-comments": "1.9.8",
-    "@strapi/plugin-slug-generator": "4.24.2",
-    "@strapi/plugin-docs": "4.24.2",
-    "@strapi/plugin-content-manager": "4.24.2",
-    "react": "^18.0.0",
-    "react-dom": "^18.0.0",
-    "react-router-dom": "5.3.4",
-    "react-router": "5.3.4",
-    "better-sqlite3": "7.6.2",
-    "styled-components": "5.3.3"
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.4.3",
+    "react-router": "^6.4.3",
+    "better-sqlite3": "^7.6.2",
+    "styled-components": "^7.3.3"
   },
   "author": {
     "name": "A Strapi developer"
