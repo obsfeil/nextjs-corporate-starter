@@ -12,6 +12,7 @@
   },
 
   "devDependencies": {},
+
   "dependencies": {
     "@strapi/cloud-cli": "4.24.2",
     "@strapi/strapi": "4.24.2",
@@ -21,11 +22,12 @@
     "@strapi/plugin-comments": "1.9.8",
     "@strapi/plugin-slug-generator": "4.24.2",
     "@strapi/plugin-docs": "4.24.2",
-  "@strapi/plugin-content-manager": "4.24.2",
+    "@strapi/plugin-content-manager": "4.24.2",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
     "react-router-dom": "5.3.4",
-    "better-sqlite3": "9.6.0",
+    "react-router": "5.3.4",
+    "better-sqlite3": "7.6.2",
     "styled-components": "5.3.3"
   },
   "author": {
