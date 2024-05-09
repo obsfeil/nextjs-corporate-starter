@@ -3,18 +3,21 @@
   "private": true,
   "version": "0.1.0",
   "description": "A Strapi application",
+
   "scripts": {
     "develop": "strapi develop",
     "start": "strapi start",
     "build": "strapi build",
     "strapi": "strapi"
   },
+
   "devDependencies": {},
   "dependencies": {
-    "@strapi/strapi": "4.7.0",
-    "@strapi/plugin-users-permissions": "4.7.0",
-    "@strapi/plugin-i18n": "4.7.0",
-    "better-sqlite3": "7.4.6",
+    "@cloud/strapi": "4.2.4",
+    "@strapi/strapi": "4.2.4",
+    "@strapi/plugin-users-permissions": "4.2.4",
+    "@strapi/plugin-i18n": "4.2.4",
+    "better-sqlite3": "8.6.0",
     "@strapi/plugin-seo": "^1.9.8",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
