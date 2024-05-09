@@ -4,7 +4,11 @@
         "default": true,
         "MD003": { "style": "atx_closed" },
         "MD007": { "indent": 4 },
-        "MD013": false,
-        "no-hard-tabs": false
+        "extends": "../.markdownlint.json",
+        "no-hard-tabs": true,
+        "MD013": { "style": "asterisk" },
+        "MD022": false,
+        "MD025": false,
+        "MD033": false
     }
 }
