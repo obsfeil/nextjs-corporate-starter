@@ -2,8 +2,9 @@
   "scripts": {
     "frontend": "yarn dev --prefix ../frontend/",
     "backend": "yarn dev --prefix ../backend/",
-    "c lear": "cd frontend && rm   -rf .next && rm -rf cache",
-    "setup:frontend": "cd frontend && yarn",
+    "clear": "cd frontend &&  cache clean --force",
+    "setup:frontend": "cd frontend && yarn && yarn next:clean && rm -rf node_modules/.cache",
+    "setup:frontend:clean": "cd frontend && yarn next:clean && rm -rf node_modules/.cache",
     "setup:backend": "cd backend && yarn",
     "setup": "yarn install && yarn setup:frontend && yarn setup:backend",
     "dev": "yarn clear && concurrently \"cd frontend && yarn dev\" \"cd backend && yarn develop\"",
