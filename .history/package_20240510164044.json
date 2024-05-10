@@ -1,0 +1,20 @@
+{
+  "scripts": {
+    "frontend": "yarn dev --prefix ../frontend/",
+    "backend": "yarn dev --prefix ../backend/",
+    "clear": "cd frontend &&  cache clean --force",
+    "setup:frontend": "cd frontend && yarn && yarn next:clean && rm -rf node_modules/.cache",
+    "setup:frontend:clean": "cd frontend && yarn next:clean && rm -rf node_modules/.cache",
+    "setup:backend": "cd backend && yarn",
+    "setup": "yarn install && yarn setup:frontend && yarn setup:backend",
+    "dev": "yarn clear && concurrently \"cd frontend && yarn dev\" \"cd backend && yarn develop\"",
+    "seed": "cd backend && yarn strapi import -f ../seed-data.tar.gz",
+    "export": "cd backend && yarn strapi export --no-encrypt -f ../seed-data",
+    "repo:upstream": "git fetch upstream && git merge upstream/main"
+  },
+  "dependencies": {
+    "concurrently": "^8.2.2",
+    "npm-check-updates": "^16.14.15",
+    "yarn": "^1.22.22"
+  }
+}
