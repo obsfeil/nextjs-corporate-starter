@@ -1,45 +1,53 @@
 {
   "collectionName": "components_shared_seos",
   "info": {
-    "name": "Seo",
-    "icon": "allergies",
-    "displayName": "Seo",
-    "description": ""
+    "displayName": "seo",
+    "icon": "search"
   },
   "options": {},
   "attributes": {
     "metaTitle": {
+      "required": true,
       "type": "string",
-      "required": true
+      "maxLength": 60
     },
     "metaDescription": {
-      "type": "text",
-      "required": true
+      "type": "string",
+      "required": true,
+      "maxLength": 160,
+      "minLength": 50
     },
-    "shareImage": {
+    "metaImage": {
       "type": "media",
       "multiple": false,
       "required": false,
       "allowedTypes": [
-        "images"
+        "images",
+        "files",
+        "videos"
       ]
     },
-    "users_permissions_users": {
-      "type": "relation",
-      "relation": "oneToMany",
-      "target": "plugin::users-permissions.user"
-    },
-    "ccsinput": {
-      "displayName": "ccsinput",
+    "metaSocial": {
       "type": "component",
-      "repeatable": false,
-      "component": "shared.ccsinput"
+      "repeatable": true,
+      "component": "shared.meta-social"
     },
-    "seo": {
-      "displayName": "Links_CCS",
-      "type": "component",
-      "repeatable": false,
-      "component": "shared.links-ccs"
+    "keywords": {
+      "type": "text",
+      "regex": "[^,]+"
+    },
+    "metaRobots": {
+      "type": "string",
+      "regex": "[^,]+"
+    },
+    "structuredData": {
+      "type": "json"
+    },
+    "metaViewport": {
+      "type": "string"
+    },
+    "canonicalURL": {
+      "type": "string"
     }
   }
 }
